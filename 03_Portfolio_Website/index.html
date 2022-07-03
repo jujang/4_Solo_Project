@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jujang's Protfolio</title>
+        <meta name="description" content="Portfolio for world-renowned software engineer Ellie">
+        <meta name="author" content="Ellie">
+        <script src="https://kit.fontawesome.com/a66174ade3.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/png" href="imgs/favicon3_w.png">
+        <link rel="stylesheet" href="style.css">
+        <script defer src="main.js"></script>
+    </head>
+    <body>
+        <!-- Navbar -->
+        <nav id="navbar">
+            <div class="navbar__logo">
+                <i class="fab fa-diaspora"></i>
+                <a href="#">Jujang</a>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__menu__item" data-link="#home">Home</li>
+                <li class="navbar__menu__item" data-link="#about">About</li>
+                <li class="navbar__menu__item" data-link="#skills">Skills</li>
+                <li class="navbar__menu__item" data-link="#work">My work</li>
+                <li class="navbar__menu__item" data-link="#contact">Contact</li>
+            </ul> 
+
+            <!-- Toggle button-->
+            <button class="navbar__toggle-btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+
+        <!-- Home -->
+        <section id="home">
+            <div class="home__container">
+                <img src="imgs/profile/profile_3.jpg" alt="Jujang's profile photo" class="home__avatar" width="200px">
+                <h1 class="home__title">Hello,<br>I'm Jujang</h1>
+                <h2 class="home__description">나는야 끊임없이 발전하는 개발자</h2>
+                <button class="home__contact" data-link="#contact">Contact Me</button>    
+            </div>
+        </section>
+
+        <!-- About -->
+        <section id="about" class="section section__container">
+            <h1>About me</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa sint nobis magnam a dicta eligendi laudantium ducimus voluptatum blanditiis et laboriosam fugit quam repellat officiis distinctio fugiat molestiae, sunt illo iure consectetur. Officiis, voluptatem obcaecati? Vel voluptatem suscipit est eum et ratione impedit, voluptate autem laboriosam modi. Nobis recusandae cupiditate est inventore itaque iusto impedit, illum commodi hic, voluptatibus accusamus nemo officia corporis atque, animi fuga eaque adipisci sequi aut. Dignissimos nulla vero, molestiae enim eum culpa sunt atque fugit hic at eaque aliquam quidem sequi! Magni, corrupti architecto odio assumenda asperiores ratione libero nobis, voluptates eius dolor sit recusandae!</p>
+            <div class="about__majors">
+                <div class="major">
+                    <div class="major__icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <h2 class="major__title">HTML&CSS</h2>
+                    <div class="major__description">HTML5 & CSS3</div>    
+                </div>
+                <div class="major">
+                    <div class="major__icon">
+                        <i class="fab fa-js"></i>
+                    </div>
+                    <h2 class="major__title">JavaScript</h2>
+                    <div class="major__description">JavaScript ES6</div>    
+                </div>
+                <div class="major">
+                    <div class="major__icon">
+                        <i class="fa-brands fa-react"></i>
+                    </div>
+                    <h2 class="major__title">React</h2>
+                    <div class="major__description">React</div>    
+                </div>
+            </div>
+            <div class="about__jobs">
+                <div class="job">
+                    <img src="imgs/programming_logo/python-brands.svg" alt="job_logo" width="50px">
+                    <div class="job__description">
+                        <p class="job__name">Hong-ik Univ.</p>
+                        <p class="job__period">4 year</p>
+                    </div>
+                </div>
+            </div>
+                <div class="job">
+                    <!-- <img src="imgs/programming_logo/java-brands.svg" alt="job_logo" width="50px"> -->
+                                        <img src="imgs/sure_logo.png" alt="job_logo" width="50px">
+                    <div class="job__description">
+                        <p class="job__name">Suresofttech</p>
+                        <p class="job__period">4 year</p>
+                    </div>
+                </div>
+        </section>
+        
+        <!-- Skills -->
+        <section id="skills" class="section">
+            <div class="section__container">
+                <h1>Skills</h1>
+                <h2>Skills & Attributes</h2>
+                <p>
+                    Experience with all phases of the software life-cycle. Passion for learning new technologies. Capable of working within a team environment and independently. Ability to plan and time schedule. work under strict time pressure and adapt quickly when needed.
+                </p>
+                <div class="skillset">
+                    <div class="skillset__left">
+                        <h3 class="skillset__title">Skills</h3>
+                        <div class="skill">
+                            <div class="skill__description">
+                                <span>HTML</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="skill__bar">
+                                <div class="skill__value" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill__description">
+                                <span>CSS</span>
+                                <span>60%</span>
+                            </div>
+                            <div class="skill__bar">
+                                <div class="skill__value" style="width: 60%"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill__description">
+                                <span>JavaScript</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="skill__bar">
+                                <div class="skill__value" style="width: 70%"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill__description">
+                                <span>C</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill__bar">
+                                <div class="skill__value" style="width: 90%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skillset__right">
+                        <div class="tools">
+                            <h3 class="skillset__title">Tools&Etc</h3>
+                            <ul class="tools__lists">
+                                <div> - </div>
+                                <div>Visual Studio Code</div>
+                                <div> - </div>
+                                <div>Git</div>
+                                <!-- <li><span>Visual Studio Code</span></li>
+                                <li><span>Git</span></li> -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Work -->
+        <section id="work" class="section">
+            <div class="section__container">
+                <h1>My work</h1>
+                <h3>Projects</h3>
+                <div class="work__categories">
+                    <button class="category__btn selected" data-filter="*">All
+                        <span class="category__count">5</span>
+                    </button>
+                    <button class="category__btn" data-filter="front-end">Front-end
+                        <span class="category__count">4</span>
+                    </button>
+                    <button class="category__btn" data-filter="back-end">Back-end
+                        <span class="category__count">1</span>
+                    </button>
+                </div>
+                <div class="work__projects">
+                    <a href="https://github.com/jujang/5_Solo_Project/tree/main/01_Lottery_Gatcha" class="project" target="blank" data-type="back-end">
+                        <img src="imgs/project/Lottery_Gatcha.png" class="project__img" alt="Lottery Gatcha">
+                        <div class="project__description">
+                            <h3>Lottery Gatcha</h3>
+                            <span>creating lottery program</span>
+                        </div>
+                    </a>
+                    <a href="https://github.com/jujang/1_About_Language/tree/main/HTML/life_coding/web2_training_2" class="project" target="blank" data-type="front-end">
+                        <img src="imgs/project/MyBlog.png" class="project__img" alt="Blog">
+                        <div class="project__description">
+                            <h3>Blog</h3>
+                            <span>creating My Blog</span>
+                        </div>
+                    </a>
+                    <a href="https://github.com/jujang/4_Online_Class_Project/tree/main/Nomad_Coder/01_Chrome_App_by_Vanilla_JS_review_04" class="project" target="blank" data-type="front-end">
+                        <img src="imgs/project/MyWebpage.png" class="project__img" alt="Chrome App">
+                        <div class="project__description">
+                            <h3>Chrome App</h3>
+                            <span>creating My Chrome App</span>
+                        </div>
+                    </a>
+                    <a href="https://github.com/jujang/4_Online_Class_Project/tree/main/Nomad_Coder/02_Creating_Paintbrush_with_Vanilla_JS_review_02" class="project" target="blank" data-type="front-end">
+                        <img src="imgs/project/PaintBrush.png" class="project__img" alt="PaintBrush App">
+                        <div class="project__description">
+                            <h3>PaintBrush App</h3>
+                            <span>creating PaintBrush App</span>
+                        </div>
+                    </a>
+                    <a href="https://github.com/jujang/1_About_Language/tree/main/JavaScript/life_coding/web2_javascript_react_review_2" class="project" target="blank" data-type="front-end">
+                        <img src="imgs/project/React_App.png" class="project__img" alt="React CRUD App">
+                        <div class="project__description">
+                            <h3>CRUD App</h3>
+                            <span>creating React CRUD App</span>
+                        </div>
+                    </a>
+                </div>    
+            </div>
+        </section>
+        
+        <!-- Contact -->
+        <section id="contact" class="section">
+            <h1 class="contact__title">Let's talk</h1>
+            <h2 class="contact__email">jeongookjang@naver.com</h2>
+            <div class="contact__links">
+                <a href="https://github.com/jujang" target="_blank">
+                    <i class="fa fa-github"></i>
+                </a>
+                <a href="https://ggojang.site" target="_blank">
+                    <i class="fa-solid fa-house-chimney"></i>
+                </a>
+                <p class="contact__rights">2022 Jujang - All rights reserved</p>
+            </div>
+        </section>
+
+        <!-- Arrow up -->
+        <div class="arrow-up">
+            <div class="arrow">
+                <i class="fa fa-arrow-up"></i>
+            </div>
+        </div>
+
+    </body>
+</html>
